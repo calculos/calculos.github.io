@@ -4,4 +4,4 @@
 
 # Por aprender
 
-Este sería el final. Ver la Proposición \ref{prop:prop1}
+Este sería el final. Ver la Proposición \ref{prp:prop01}.

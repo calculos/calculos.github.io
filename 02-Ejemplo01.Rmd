@@ -1,93 +1,151 @@
+---
+header-includes:
+  - \usepackage{xcolor}
+  - \usepackage[spanish]{babel}
+  - \decimalpoint #para poner el punto decimal (en lugar de la coma decimal)
+  - \usepackage{amsmath}
+  - \allowdisplaybreaks #para permitir rompimiento de ecuaciones en p\'aginas distintas
+  #% ver http://tex.stackexchange.com/questions/51682/is-it-possible-to-pagebreak-aligned-equations
+  #  para m\'as detalles
+  - \usepackage{amsthm}
+  - \usepackage{dsfont}
+  - \usepackage{amsfonts}
+  - \usepackage{amssymb}
+  - \newcommand{\R}{\mathbb{R}}
+  - \DeclareMathOperator*{\id}{Id}
+  - \DeclareMathOperator{\expo}{exp}
+  - \DeclareMathOperator{\inte}{int}
+  - \DeclareMathOperator{\ext}{ext}
+  - \DeclareMathOperator{\fr}{Fr}
+  - \DeclareMathOperator{\sen}{sen}
+  - \DeclareMathOperator{\senh}{senh}
+  - \DeclareMathOperator{\rot}{Rot}
+  - \DeclareMathOperator{\diam}{di\acute{a}m}
+  - \DeclareMathOperator{\area}{\acute{a}rea}
+  - \DeclareMathOperator{\dive}{div}
+---
+
+```{r echo = FALSE}
+color <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color, 
+      x)
+  } else x
+}
+```
+
+
 # Ejemplo 01
 
-*Esta es la primera prueba con `LaTeX`.*
+**Esta es la primera prueba con `LaTeX`.**
 
-	En esta sesión veremos una consecuencia importante del Teorema de Green: si $F$ es un campo de clase $C^1$, el rotacional $\rot\left( F(\overline{x}) \right)$ de $F$ en un punto $\overline{x}$ se puede calcular como un l\'imite sobre regiones muy generales. Antes de ello, es conveniente recordar que si $A\subset\R^2$ es acotado, entonces
-	\[
+En esta sesión veremos una consecuencia importante del Teorema de Green: si $F$ es un campo de clase $C^1$, el rotacional $\rot\left( F(\overline{x}) \right)$ de $F$ en un punto $\overline{x}$ se puede calcular como un límite sobre regiones muy generales. Antes de ello, es conveniente recordar que si $A\subset\R^2$ es acotado, entonces
+
+\begin{equation*}
 		\diam(A) = \sup \left\{ \|\overline{x} - \overline{y}\| \left\lvert \ \overline{x},\ \overline{y}\in A \right.  \  \right\} .
-	\]
-	\begin{prop} \label{prop1}
-		Sean $U\subset\R^2$ una regi\'on, $F = \left(P, Q\right): U\to \R^2$ de clase $C^1$ en $U$, $\overline{x}\in U$ y $\left\{ \Omega_{\epsilon} \right\}_{0<\epsilon <c}$ una familia de subconjuntos de $U$ que son Jordan--medibles, cerrados y acotados tales que $\Gamma_{\epsilon} = \partial \Omega_{\epsilon} = \fr\left( \Omega_{\epsilon}\right)$ es una curva cerrada simple, $\overline{x}\in\inte\left(\Omega_{\epsilon}\right)$ para toda $0 < \epsilon < c$ y $\lim\limits_{\epsilon\to 0^{+}} \diam\left(\Omega_{\epsilon}\right) = 0$. Entonces
-		\[
+\end{equation*}
+
+
+
+```{proposition, prop01}
+Sean $U\subset\R^2$ una región, $F = \left(P, Q\right): U\to \mathbb{R}^2$ de clase $C^1$ en $U$, $\overline{x}\in U$ y $\left\{ \Omega_{\epsilon} \right\}_{0<\epsilon <c}$ una familia de subconjuntos de $U$ que son Jordan--medibles, cerrados y acotados tales que $\Gamma_{\epsilon} = \partial \Omega_{\epsilon} = \fr\left( \Omega_{\epsilon}\right)$ es una curva cerrada simple, $\overline{x}\in\inte\left(\Omega_{\epsilon}\right)$ para toda $0 < \epsilon < c$ y $\lim\limits_{\epsilon\to 0^{+}} \diam\left(\Omega_{\epsilon}\right) = 0$. Entonces
+	
+\begin{equation*}
 			\rot\left( F(\overline{x})\right) = \lim\limits_{\epsilon\to 0^{+}} \frac{\displaystyle\int\limits_{\Gamma_{\epsilon}} F\cdot d\gamma_{\epsilon}}{\area\left( \Omega_{\epsilon}\right)}
-		\]
-		donde $\gamma_{\epsilon}$ es una parametrizaci\'on de $\Gamma_{\epsilon}$ que la recorre en el sentido contrario al de las manecillas del reloj.
-	\end{prop}
-	\begin{proof}
-		Notamos que para cada $0< \epsilon<c$ se cumplen las hip\'otesis del Teorema de Green, por lo cual
-		\[
+\end{equation*}
+	
+donde $\gamma_{\epsilon}$ es una parametrización de $\Gamma_{\epsilon}$ que la recorre en el sentido contrario al de las manecillas del reloj.
+```
+
+```{proof}
+Notamos que para cada $0< \epsilon<c$ se cumplen las hipótesis del Teorema de Green, por lo cual
+		
+\begin{equation*}
 			\displaystyle \int\limits_{\Gamma_{\epsilon}} F\cdot d\gamma_{\epsilon} = \int\limits_{\Omega_{\epsilon}} \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right).
-		\]
-		Luego, para cada $\epsilon$, por el Teorema del Valor Promedio para integrales sobre conjuntos Jordan--medibles (\textcolor{blue}{?`recuerda dicho resultado?}), existe $\overline{\xi}_{\epsilon}\in \Omega_{\epsilon}$ tal que
-		\begin{align*}
+\end{equation*}
+		
+Luego, para cada $\epsilon$, por el Teorema del Valor Promedio para integrales sobre conjuntos Jordan--medibles (\textcolor{blue}{¿recuerda dicho resultado?}), existe $\overline{\xi}_{\epsilon}\in \Omega_{\epsilon}$ tal que
+		
+\begin{align*}
 			\int\limits_{\Omega_{\epsilon}} \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right) & = \left( \frac{\partial Q}{\partial x}\left(\overline{\xi}_{\epsilon}\right) - \frac{\partial P}{\partial y}\left(\overline{\xi}_{\epsilon}\right) \right) \cdot m\left( \Omega_{\epsilon}\right) \\
 			& = \left( \frac{\partial Q}{\partial x}\left(\overline{\xi}_{\epsilon}\right) - \frac{\partial P}{\partial y}\left(\overline{\xi}_{\epsilon}\right) \right) \cdot \area\left( \Omega_{\epsilon}\right).
-		\end{align*}
+\end{align*}
 	
-	Ya que $\overline{x}\in\inte\left(\Omega_{\epsilon}\right)$, entonces $\inte\left(\Omega_{\epsilon}\right)\neq\emptyset$, lo cual implica que $\area\left(\Omega_{\epsilon}\right)\neq 0$, de donde, al combinar las dos igualdades anteriores, para toda $\epsilon$ se cumple que
-	\[
+Ya que $\overline{x}\in\inte\left(\Omega_{\epsilon}\right)$, entonces $\inte\left(\Omega_{\epsilon}\right)\neq\emptyset$, lo cual implica que $\area\left(\Omega_{\epsilon}\right)\neq 0$, de donde, al combinar las dos igualdades anteriores, para toda $\epsilon$ se cumple que
+
+\begin{equation*}
 		\frac{\displaystyle\int\limits_{\Gamma_{\epsilon}} F\cdot d\gamma_{\epsilon}}{\area\left(\Omega_{\epsilon}\right)} = \frac{\partial Q}{\partial x}\left(\overline{\xi}_{\epsilon}\right) - \frac{\partial P}{\partial y}\left( \overline{\xi}_{\epsilon}\right).
-	\]
+\end{equation*}
 	
-	Para concluir, notamos que las funciones $\frac{\partial Q}{\partial x}$ y $\frac{\partial P}{\partial y}$ son continuas porque $F$ es de clase $C^1$, adem\'as,
-	\[
+Para concluir, notamos que las funciones $\frac{\partial Q}{\partial x}$ y $\frac{\partial P}{\partial y}$ son continuas porque $F$ es de clase $C^1$, además,
+
+\begin{equation*}
 		\lim\limits_{\epsilon\to 0^{+}} \overline{\xi}_{\epsilon} = \overline{x}
-	\]
-	porque $\overline{x}\in\inte\left(\Omega_{\epsilon}\right)$ para toda $0<\epsilon < c$ y $\lim\limits_{\epsilon\to 0^{+}} \diam\left(\Omega_{\epsilon}\right)=0$, entonces por un teorema de cambio de variable en l\'imites (\textcolor{blue}{?`conoce alg\'un teorema as\'i?}) obtenemos que
-	\begin{align*}
+\end{equation*}
+
+porque $\overline{x}\in\inte\left(\Omega_{\epsilon}\right)$ para toda $0<\epsilon < c$ y $\lim\limits_{\epsilon\to 0^{+}} \diam\left(\Omega_{\epsilon}\right)=0$, entonces por un teorema de cambio de variable en límites (\textcolor{blue}{¿conoce algún teorema así?}) obtenemos que
+
+\begin{align*}
 		\displaystyle\lim\limits_{\epsilon\to 0^{+}} \frac{\displaystyle\int\limits_{\Gamma_{\epsilon}} F\cdot d\gamma_{\epsilon}}{\area\left(\Omega_{\epsilon}\right)}  & = \lim\limits_{\epsilon\to 0^{+}}\left(\frac{\partial Q}{\partial x}\left(\overline{\xi}_{\epsilon}\right) - \frac{\partial P}{\partial y}\left( \overline{\xi}_{\epsilon}\right)\right) \\
 		& = \frac{\partial Q}{\partial x}\left(\overline{x}\right) - \frac{\partial P}{\partial y}\left(\overline{x}\right) \\
 		& = \rot\left( F(\overline{x})\right).
-	\end{align*}
+\end{align*}
 
-	Esto termina la prueba.
-	\end{proof}
+Esto termina la prueba.
 
-	Aunque no lo parezca, la proposici\'on anterior se puede interpretar como la \emph{rotaci\'on promedio} generada por el campo $F$ en el punto $\overline{x}$.
+```
+
+Aunque no lo parezca, la Proposición \ref{prp:prop01} se puede interpretar como la **rotación promedio** generada por el campo $F$ en el punto $\overline{x}$.
 	
-	Para concluir esta sesi\'on presentamos una aplicaci\'on directa del Teorema de Green: el c\'alculo de una integral.
-	\begin{ejer}
-		Calcule la integral $\displaystyle\int\limits_{\Gamma} F\cdot d\gamma$, donde $F(x,y) = \left(3x^3-y^3, x^3 +2y^3\right)$ y $\Gamma$ es el c\'irculo unitario con centro en el origen y recorrido en el sentido contrario al de las manecillas del reloj.
-	\end{ejer}
-	\begin{proof}[Solución.]
-		Tenemos que $F$ es de clase $C^1$ en $\R^2$ y si $\Omega = B_1(0,0)$, entonces $\Omega$ es un conjunto Jordan--medible y $\fr\left(\Omega\right) = \partial \Omega = \Gamma$. Como $\R^2$ es una regi\'on, claramente se tiene que $\Omega \cup \Gamma\subset \R^2$. Por lo tanto se cumplen las hip\'otesis del Teorema de Green, as\'i que
-		\[
+Para concluir esta sesión presentamos una aplicación directa del Teorema de Green: el cálculo de una integral.
+	
+	
+```{exercise, ej01}
+		Calcule la integral $\displaystyle\int\limits_{\Gamma} F\cdot d\gamma$, donde $F(x,y) = \left(3x^3-y^3, x^3 +2y^3\right)$ y $\Gamma$ es el círculo unitario con centro en el origen y recorrido en el sentido contrario al de las manecillas del reloj.
+```
+
+```{proof}
+Tenemos que $F$ es de clase $C^1$ en $\R^2$ y si $\Omega = B_1(0,0)$, entonces $\Omega$ es un conjunto Jordan--medible y $\fr\left(\Omega\right) = \partial \Omega = \Gamma$. Como $\R^2$ es una región, claramente se tiene que $\Omega \cup \Gamma\subset \R^2$. Por lo tanto se cumplen las hipótesis del Teorema de Green, así que
+\begin{equation*}
 			\displaystyle\int\limits_{\Gamma=\partial \Omega} F \cdot d\gamma = \int\limits_{\Omega} \rot\left( F \right), 
-		\]
-		donde $\gamma$ es la parametrizaci\'on usual de $\Gamma$ que la recorre una vez en el sentido contrario al de las manecillas del reloj.
+\end{equation*}
+		donde $\gamma$ es la parametrización usual de $\Gamma$ que la recorre una vez en el sentido contrario al de las manecillas del reloj.
 		
-		
-		
-		Notamos que
-		\[
+
+Notamos que
+\begin{equation*}
 			\frac{\partial Q}{\partial x}(x,y) = 3x^2
-		\]
-		y tambi\'en
-		\[
+\end{equation*}
+		y también
+\begin{equation*}
 			\frac{\partial P}{\partial y}(x,y) = -3y^2,
-		\]
+\end{equation*}
 		por lo cual
-		\[
+\begin{equation*}
 			\rot(F)(x,y) = 3x^2 + 3y^2 = 3(x^2 + y^2). 
-		\]
+\end{equation*}
 		
-		En virtud de lo anterior, tenemos que
-		\[
+En virtud de lo anterior, tenemos que
+		\begin{equation*}
 			\displaystyle\int\limits_{\Gamma=\partial \Omega} F \cdot d\gamma = 3\int\limits_{B_1(0,0)} f
-		\]
-		donde $f(x,y) = x^2+y^2$.
+		\end{equation*}
+donde $f(x,y) = x^2+y^2$.
 		
-		Notamos que al aplicar el cambio de variable a coordenadas polares obtenemos que
+Notamos que al aplicar el cambio de variable a coordenadas polares obtenemos que
 		\begin{align*}
 			\int\limits_{B_1(0,0)} f & = \int\limits_{0}^{2\pi}\left(\int\limits_{0}^{1} r^3 dr\right)\ d\theta \\
 			& = \int\limits_{0}^{2\pi} \frac{1}{4} d\theta \\
 			& = \frac{\pi}{2}.
 		\end{align*}
 	
-		Por lo tanto,
-		\[
+Por lo tanto,
+		\begin{equation*}
 			\displaystyle\int\limits_{\Gamma=\partial \Omega} F \cdot d\gamma = \frac{3\pi}{2}.
-		\]
-	\end{proof}
+		\end{equation*}
 
-	\textcolor{blue}{?`Obtiene el mismo resultado si hace los c\'alculos directamente?}
+```
+
+\bigskip
+`r color("¿Obtiene el mismo resultado si hace los cálculos directamente?", "red")`
