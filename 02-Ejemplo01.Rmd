@@ -6,7 +6,7 @@
 	\[
 		\diam(A) = \sup \left\{ \|\overline{x} - \overline{y}\| \left\lvert \ \overline{x},\ \overline{y}\in A \right.  \  \right\} .
 	\]
-	\begin{prop}
+	\begin{prop} \label{prop1}
 		Sean $U\subset\R^2$ una regi\'on, $F = \left(P, Q\right): U\to \R^2$ de clase $C^1$ en $U$, $\overline{x}\in U$ y $\left\{ \Omega_{\epsilon} \right\}_{0<\epsilon <c}$ una familia de subconjuntos de $U$ que son Jordan--medibles, cerrados y acotados tales que $\Gamma_{\epsilon} = \partial \Omega_{\epsilon} = \fr\left( \Omega_{\epsilon}\right)$ es una curva cerrada simple, $\overline{x}\in\inte\left(\Omega_{\epsilon}\right)$ para toda $0 < \epsilon < c$ y $\lim\limits_{\epsilon\to 0^{+}} \diam\left(\Omega_{\epsilon}\right) = 0$. Entonces
 		\[
 			\rot\left( F(\overline{x})\right) = \lim\limits_{\epsilon\to 0^{+}} \frac{\displaystyle\int\limits_{\Gamma_{\epsilon}} F\cdot d\gamma_{\epsilon}}{\area\left( \Omega_{\epsilon}\right)}
