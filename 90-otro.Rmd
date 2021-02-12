@@ -1,0 +1,7 @@
+\cleardoublepage 
+
+# (APPENDIX) Apéndice de prueba {-}
+
+# Por aprender
+
+Este sería el final.
