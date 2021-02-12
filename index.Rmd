@@ -29,6 +29,7 @@ lapply(c('xfun'), function(pkg) {
 
 # Prefacio {-}
 
+Algo.
 
 ## Agradecimientos {-}
 

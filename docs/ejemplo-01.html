@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 3 Ejemplo 01 | Cálculo</title>
+  <meta name="description" content="Prueba para Cálculo" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 3 Ejemplo 01 | Cálculo" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Prueba para Cálculo" />
+  <meta name="github-repo" content="calculos/calculos.github.io" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 3 Ejemplo 01 | Cálculo" />
+  
+  <meta name="twitter:description" content="Prueba para Cálculo" />
+  
+
+<meta name="author" content="ASG" />
+
+
+<meta name="date" content="2021-02-12" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="introducción.html"/>
+<link rel="next" href="por-aprender.html"/>
+<script src="libs/jquery/jquery.min.js"></script>
+<link href="libs/gitbook/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block/empty-anchor.js"></script>
+
+
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Cálculo</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prefacio</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#agradecimientos"><i class="fa fa-check"></i>Agradecimientos</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="quién-escribe.html"><a href="quién-escribe.html"><i class="fa fa-check"></i><b>1</b> Quién escribe?</a></li>
+<li class="chapter" data-level="2" data-path="introducción.html"><a href="introducción.html"><i class="fa fa-check"></i><b>2</b> Introducción</a></li>
+<li class="chapter" data-level="3" data-path="ejemplo-01.html"><a href="ejemplo-01.html"><i class="fa fa-check"></i><b>3</b> Ejemplo 01</a></li>
+<li class="appendix"><span><b>Apéndice de prueba</b></span></li>
+<li class="chapter" data-level="A" data-path="por-aprender.html"><a href="por-aprender.html"><i class="fa fa-check"></i><b>A</b> Por aprender</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://pages.github.com/" target="blank">Publicado con GitHubPages</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Cálculo</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="ejemplo-01" class="section level1">
+<h1><span class="header-section-number">Chapter 3</span> Ejemplo 01</h1>
+<p><em>Esta es la primera prueba con <code>LaTeX</code>.</em></p>
+<pre><code>En esta sesión veremos una consecuencia importante del Teorema de Green: si $F$ es un campo de clase $C^1$, el rotacional $\rot\left( F(\overline{x}) \right)$ de $F$ en un punto $\overline{x}$ se puede calcular como un l\&#39;imite sobre regiones muy generales. Antes de ello, es conveniente recordar que si $A\subset\R^2$ es acotado, entonces
+\[
+    \diam(A) = \sup \left\{ \|\overline{x} - \overline{y}\| \left\lvert \ \overline{x},\ \overline{y}\in A \right.  \  \right\} .
+\]
+\begin{prop} \label{prop1}
+    Sean $U\subset\R^2$ una regi\&#39;on, $F = \left(P, Q\right): U\to \R^2$ de clase $C^1$ en $U$, $\overline{x}\in U$ y $\left\{ \Omega_{\epsilon} \right\}_{0&lt;\epsilon &lt;c}$ una familia de subconjuntos de $U$ que son Jordan--medibles, cerrados y acotados tales que $\Gamma_{\epsilon} = \partial \Omega_{\epsilon} = \fr\left( \Omega_{\epsilon}\right)$ es una curva cerrada simple, $\overline{x}\in\inte\left(\Omega_{\epsilon}\right)$ para toda $0 &lt; \epsilon &lt; c$ y $\lim\limits_{\epsilon\to 0^{+}} \diam\left(\Omega_{\epsilon}\right) = 0$. Entonces
+    \[
+        \rot\left( F(\overline{x})\right) = \lim\limits_{\epsilon\to 0^{+}} \frac{\displaystyle\int\limits_{\Gamma_{\epsilon}} F\cdot d\gamma_{\epsilon}}{\area\left( \Omega_{\epsilon}\right)}
+    \]
+    donde $\gamma_{\epsilon}$ es una parametrizaci\&#39;on de $\Gamma_{\epsilon}$ que la recorre en el sentido contrario al de las manecillas del reloj.
+\end{prop}
+\begin{proof}
+    Notamos que para cada $0&lt; \epsilon&lt;c$ se cumplen las hip\&#39;otesis del Teorema de Green, por lo cual
+    \[
+        \displaystyle \int\limits_{\Gamma_{\epsilon}} F\cdot d\gamma_{\epsilon} = \int\limits_{\Omega_{\epsilon}} \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right).
+    \]
+    Luego, para cada $\epsilon$, por el Teorema del Valor Promedio para integrales sobre conjuntos Jordan--medibles (\textcolor{blue}{?`recuerda dicho resultado?}), existe $\overline{\xi}_{\epsilon}\in \Omega_{\epsilon}$ tal que
+    \begin{align*}
+        \int\limits_{\Omega_{\epsilon}} \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right) &amp; = \left( \frac{\partial Q}{\partial x}\left(\overline{\xi}_{\epsilon}\right) - \frac{\partial P}{\partial y}\left(\overline{\xi}_{\epsilon}\right) \right) \cdot m\left( \Omega_{\epsilon}\right) \\
+        &amp; = \left( \frac{\partial Q}{\partial x}\left(\overline{\xi}_{\epsilon}\right) - \frac{\partial P}{\partial y}\left(\overline{\xi}_{\epsilon}\right) \right) \cdot \area\left( \Omega_{\epsilon}\right).
+    \end{align*}
+
+Ya que $\overline{x}\in\inte\left(\Omega_{\epsilon}\right)$, entonces $\inte\left(\Omega_{\epsilon}\right)\neq\emptyset$, lo cual implica que $\area\left(\Omega_{\epsilon}\right)\neq 0$, de donde, al combinar las dos igualdades anteriores, para toda $\epsilon$ se cumple que
+\[
+    \frac{\displaystyle\int\limits_{\Gamma_{\epsilon}} F\cdot d\gamma_{\epsilon}}{\area\left(\Omega_{\epsilon}\right)} = \frac{\partial Q}{\partial x}\left(\overline{\xi}_{\epsilon}\right) - \frac{\partial P}{\partial y}\left( \overline{\xi}_{\epsilon}\right).
+\]
+
+Para concluir, notamos que las funciones $\frac{\partial Q}{\partial x}$ y $\frac{\partial P}{\partial y}$ son continuas porque $F$ es de clase $C^1$, adem\&#39;as,
+\[
+    \lim\limits_{\epsilon\to 0^{+}} \overline{\xi}_{\epsilon} = \overline{x}
+\]
+porque $\overline{x}\in\inte\left(\Omega_{\epsilon}\right)$ para toda $0&lt;\epsilon &lt; c$ y $\lim\limits_{\epsilon\to 0^{+}} \diam\left(\Omega_{\epsilon}\right)=0$, entonces por un teorema de cambio de variable en l\&#39;imites (\textcolor{blue}{?`conoce alg\&#39;un teorema as\&#39;i?}) obtenemos que
+\begin{align*}
+    \displaystyle\lim\limits_{\epsilon\to 0^{+}} \frac{\displaystyle\int\limits_{\Gamma_{\epsilon}} F\cdot d\gamma_{\epsilon}}{\area\left(\Omega_{\epsilon}\right)}  &amp; = \lim\limits_{\epsilon\to 0^{+}}\left(\frac{\partial Q}{\partial x}\left(\overline{\xi}_{\epsilon}\right) - \frac{\partial P}{\partial y}\left( \overline{\xi}_{\epsilon}\right)\right) \\
+    &amp; = \frac{\partial Q}{\partial x}\left(\overline{x}\right) - \frac{\partial P}{\partial y}\left(\overline{x}\right) \\
+    &amp; = \rot\left( F(\overline{x})\right).
+\end{align*}
+
+Esto termina la prueba.
+\end{proof}
+
+Aunque no lo parezca, la proposici\&#39;on anterior se puede interpretar como la \emph{rotaci\&#39;on promedio} generada por el campo $F$ en el punto $\overline{x}$.
+
+Para concluir esta sesi\&#39;on presentamos una aplicaci\&#39;on directa del Teorema de Green: el c\&#39;alculo de una integral.
+\begin{ejer}
+    Calcule la integral $\displaystyle\int\limits_{\Gamma} F\cdot d\gamma$, donde $F(x,y) = \left(3x^3-y^3, x^3 +2y^3\right)$ y $\Gamma$ es el c\&#39;irculo unitario con centro en el origen y recorrido en el sentido contrario al de las manecillas del reloj.
+\end{ejer}
+\begin{proof}[Solución.]
+    Tenemos que $F$ es de clase $C^1$ en $\R^2$ y si $\Omega = B_1(0,0)$, entonces $\Omega$ es un conjunto Jordan--medible y $\fr\left(\Omega\right) = \partial \Omega = \Gamma$. Como $\R^2$ es una regi\&#39;on, claramente se tiene que $\Omega \cup \Gamma\subset \R^2$. Por lo tanto se cumplen las hip\&#39;otesis del Teorema de Green, as\&#39;i que
+    \[
+        \displaystyle\int\limits_{\Gamma=\partial \Omega} F \cdot d\gamma = \int\limits_{\Omega} \rot\left( F \right), 
+    \]
+    donde $\gamma$ es la parametrizaci\&#39;on usual de $\Gamma$ que la recorre una vez en el sentido contrario al de las manecillas del reloj.
+    
+    
+    
+    Notamos que
+    \[
+        \frac{\partial Q}{\partial x}(x,y) = 3x^2
+    \]
+    y tambi\&#39;en
+    \[
+        \frac{\partial P}{\partial y}(x,y) = -3y^2,
+    \]
+    por lo cual
+    \[
+        \rot(F)(x,y) = 3x^2 + 3y^2 = 3(x^2 + y^2). 
+    \]
+    
+    En virtud de lo anterior, tenemos que
+    \[
+        \displaystyle\int\limits_{\Gamma=\partial \Omega} F \cdot d\gamma = 3\int\limits_{B_1(0,0)} f
+    \]
+    donde $f(x,y) = x^2+y^2$.
+    
+    Notamos que al aplicar el cambio de variable a coordenadas polares obtenemos que
+    \begin{align*}
+        \int\limits_{B_1(0,0)} f &amp; = \int\limits_{0}^{2\pi}\left(\int\limits_{0}^{1} r^3 dr\right)\ d\theta \\
+        &amp; = \int\limits_{0}^{2\pi} \frac{1}{4} d\theta \\
+        &amp; = \frac{\pi}{2}.
+    \end{align*}
+
+    Por lo tanto,
+    \[
+        \displaystyle\int\limits_{\Gamma=\partial \Omega} F \cdot d\gamma = \frac{3\pi}{2}.
+    \]
+\end{proof}
+
+\textcolor{blue}{?`Obtiene el mismo resultado si hace los c\&#39;alculos directamente?}</code></pre>
+
+
+</div>
+
+
+
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="introducción.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="por-aprender.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook/js/app.min.js"></script>
+<script src="libs/gitbook/js/lunr.js"></script>
+<script src="libs/gitbook/js/clipboard.min.js"></script>
+<script src="libs/gitbook/js/plugin-search.js"></script>
+<script src="libs/gitbook/js/plugin-sharing.js"></script>
+<script src="libs/gitbook/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook/js/jquery.highlight.js"></script>
+<script src="libs/gitbook/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": false,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "night",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/calculos/calculos.github.io/edit/master/02-Ejemplo01.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["bookdown.pdf"],
+"toc": {
+"collapse": "none"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
