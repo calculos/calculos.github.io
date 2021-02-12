@@ -12,6 +12,8 @@ bookdown::gitbook:
     sharing:
       github: false
       facebook: false
+  fontsettings:
+      theme: night
 bookdown::pdf_book:
   includes:
     in_header: latex/preamble.tex
