@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 21.1) (preloaded format=xelatex 2021.2.12)  12 FEB 2021 07:27
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 21.1) (preloaded format=xelatex 2021.2.12)  12 FEB 2021 08:30
 entering extended mode
 **./bookdown.tex
 (bookdown.tex
@@ -907,35 +907,18 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 ) (C:\Users\Nety\AppData\Roaming\MiKTeX\tex/latex/cases\cases.sty
 Package: cases 2020/03/29 ver 3.2
 \numc@numwid=\dimen282
-) (C:\Users\Nety\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
-("C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty"
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count327
-\Gm@cntv=\count328
-\c@Gm@tempcnt=\count329
-\Gm@bindingoffset=\dimen283
-\Gm@wd@mp=\dimen284
-\Gm@odd@mp=\dimen285
-\Gm@even@mp=\dimen286
-\Gm@layoutwidth=\dimen287
-\Gm@layoutheight=\dimen288
-\Gm@layouthoffset=\dimen289
-\Gm@layoutvoffset=\dimen290
-\Gm@dimlist=\toks36
-("C:\Program Files\MiKTeX\tex/xelatex/xetexconfig\geometry.cfg"))
-\c@teo=\count330
-\c@innercustomgeneric=\count331
+\c@teo=\count327
+\c@innercustomgeneric=\count328
 (C:\Users\Nety\AppData\Roaming\MiKTeX\tex/latex/calrsfs\calrsfs.sty
 \symrsfscript=\mathgroup6
 ) (C:\Users\Nety\AppData\Roaming\MiKTeX\tex/latex/framed\framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip90
-\fb@frw=\dimen291
-\fb@frh=\dimen292
-\FrameRule=\dimen293
-\FrameSep=\dimen294
+\fb@frw=\dimen283
+\fb@frh=\dimen284
+\FrameRule=\dimen285
+\FrameSep=\dimen286
 ) ("C:\Program Files\MiKTeX\tex/latex/base\makeidx.sty"
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
@@ -948,16 +931,16 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip91
 \bibsep=\skip92
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count332
+\c@NAT@ctr=\count329
 )
-\c@theorem=\count333
-\c@lemma=\count334
-\c@corollary=\count335
-\c@proposition=\count336
-\c@conjecture=\count337
-\c@definition=\count338
-\c@example=\count339
-\c@exercise=\count340
+\c@theorem=\count330
+\c@lemma=\count331
+\c@corollary=\count332
+\c@proposition=\count333
+\c@conjecture=\count334
+\c@definition=\count335
+\c@example=\count336
+\c@exercise=\count337
 (bookdown.aux
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
@@ -1208,7 +1191,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 .sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count341
+\c@section@level=\count338
 )
 LaTeX Info: Redefining \ref on input line 340.
 LaTeX Info: Redefining \pageref on input line 340.
@@ -1220,44 +1203,11 @@ Package caption Info: End \AtBeginDocument code.
 
 LaTeX Info: Redefining \. on input line 340.
 LaTeX Info: Redefining \% on input line 340.
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=650.43001pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-66.2025pt
-* \headheight=54.2025pt
-* \headsep=12.0pt
-* \topskip=10.0pt
-* \footskip=24.0pt
-* \marginparwidth=48.0pt
-* \marginparsep=12.0pt
-* \columnsep=10.0pt
-* \skip\footins=12.0pt plus 3.0pt minus 1.5pt
-* \hoffset=-15.0pt
-* \voffset=39.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1265,7 +1215,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1273,7 +1223,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1281,7 +1231,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1298,7 +1248,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1306,7 +1256,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1314,7 +1264,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1322,7 +1272,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1336,7 +1286,7 @@ Underfull \vbox (badness 10000) detected at line 363
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 363
+Overfull \hbox (469.50499pt too wide) detected at line 363
 []
  []
 
@@ -1345,7 +1295,7 @@ Underfull \vbox (badness 10000) detected at line 363
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 363
+Overfull \hbox (469.50499pt too wide) detected at line 363
 []
  []
 
@@ -1354,7 +1304,7 @@ Underfull \vbox (badness 10000) detected at line 363
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 363
+Overfull \hbox (469.50499pt too wide) detected at line 363
 []
  []
 
@@ -1363,7 +1313,7 @@ Underfull \vbox (badness 10000) detected at line 363
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 363
+Overfull \hbox (469.50499pt too wide) detected at line 363
 []
  []
 
@@ -1410,7 +1360,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1418,7 +1368,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1426,7 +1376,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1434,7 +1384,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1450,7 +1400,7 @@ Underfull \vbox (badness 10000) detected at line 365
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 365
+Overfull \hbox (469.50499pt too wide) detected at line 365
 []
  []
 
@@ -1459,7 +1409,7 @@ Underfull \vbox (badness 10000) detected at line 365
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 365
+Overfull \hbox (469.50499pt too wide) detected at line 365
 []
  []
 
@@ -1468,7 +1418,7 @@ Underfull \vbox (badness 10000) detected at line 365
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 365
+Overfull \hbox (469.50499pt too wide) detected at line 365
 []
  []
 
@@ -1477,7 +1427,7 @@ Underfull \vbox (badness 10000) detected at line 365
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 365
+Overfull \hbox (469.50499pt too wide) detected at line 365
 []
  []
 
@@ -1507,7 +1457,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1515,7 +1465,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1523,7 +1473,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1531,7 +1481,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1547,7 +1497,7 @@ Underfull \vbox (badness 10000) detected at line 366
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 366
+Overfull \hbox (469.50499pt too wide) detected at line 366
 []
  []
 
@@ -1556,7 +1506,7 @@ Underfull \vbox (badness 10000) detected at line 366
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 366
+Overfull \hbox (469.50499pt too wide) detected at line 366
 []
  []
 
@@ -1565,7 +1515,7 @@ Underfull \vbox (badness 10000) detected at line 366
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 366
+Overfull \hbox (469.50499pt too wide) detected at line 366
 []
  []
 
@@ -1574,7 +1524,7 @@ Underfull \vbox (badness 10000) detected at line 366
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 366
+Overfull \hbox (469.50499pt too wide) detected at line 366
 []
  []
 
@@ -1601,7 +1551,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1609,7 +1559,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1617,7 +1567,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1625,7 +1575,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1641,7 +1591,7 @@ Underfull \vbox (badness 10000) detected at line 368
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 368
+Overfull \hbox (469.50499pt too wide) detected at line 368
 []
  []
 
@@ -1650,7 +1600,7 @@ Underfull \vbox (badness 10000) detected at line 368
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 368
+Overfull \hbox (469.50499pt too wide) detected at line 368
 []
  []
 
@@ -1659,7 +1609,7 @@ Underfull \vbox (badness 10000) detected at line 368
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 368
+Overfull \hbox (469.50499pt too wide) detected at line 368
 []
  []
 
@@ -1668,7 +1618,7 @@ Underfull \vbox (badness 10000) detected at line 368
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 368
+Overfull \hbox (469.50499pt too wide) detected at line 368
 []
  []
 
@@ -1688,7 +1638,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1696,7 +1646,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1704,7 +1654,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1712,7 +1662,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1728,7 +1678,7 @@ Underfull \vbox (badness 10000) detected at line 384
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 384
+Overfull \hbox (469.50499pt too wide) detected at line 384
 []
  []
 
@@ -1737,7 +1687,7 @@ Underfull \vbox (badness 10000) detected at line 384
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 384
+Overfull \hbox (469.50499pt too wide) detected at line 384
 []
  []
 
@@ -1746,7 +1696,7 @@ Underfull \vbox (badness 10000) detected at line 384
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 384
+Overfull \hbox (469.50499pt too wide) detected at line 384
 []
  []
 
@@ -1755,7 +1705,7 @@ Underfull \vbox (badness 10000) detected at line 384
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 384
+Overfull \hbox (469.50499pt too wide) detected at line 384
 []
  []
 
@@ -1770,7 +1720,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1778,7 +1728,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1786,7 +1736,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1794,7 +1744,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1810,7 +1760,7 @@ Underfull \vbox (badness 10000) detected at line 391
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 391
+Overfull \hbox (469.50499pt too wide) detected at line 391
 []
  []
 
@@ -1819,7 +1769,7 @@ Underfull \vbox (badness 10000) detected at line 391
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 391
+Overfull \hbox (469.50499pt too wide) detected at line 391
 []
  []
 
@@ -1828,7 +1778,7 @@ Underfull \vbox (badness 10000) detected at line 391
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 391
+Overfull \hbox (469.50499pt too wide) detected at line 391
 []
  []
 
@@ -1837,7 +1787,7 @@ Underfull \vbox (badness 10000) detected at line 391
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 391
+Overfull \hbox (469.50499pt too wide) detected at line 391
 []
  []
 
@@ -1854,7 +1804,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1862,7 +1812,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1870,7 +1820,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1878,7 +1828,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -1894,7 +1844,7 @@ Underfull \vbox (badness 10000) detected at line 396
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 396
+Overfull \hbox (469.50499pt too wide) detected at line 396
 []
  []
 
@@ -1903,7 +1853,7 @@ Underfull \vbox (badness 10000) detected at line 396
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 396
+Overfull \hbox (469.50499pt too wide) detected at line 396
 []
  []
 
@@ -1912,7 +1862,7 @@ Underfull \vbox (badness 10000) detected at line 396
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 396
+Overfull \hbox (469.50499pt too wide) detected at line 396
 []
  []
 
@@ -1921,150 +1871,47 @@ Underfull \vbox (badness 10000) detected at line 396
  []
 
 
-Overfull \hbox (469.50502pt too wide) detected at line 396
+Overfull \hbox (469.50499pt too wide) detected at line 396
 []
  []
 
 Capítulo 2.
-LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/it' will be
+LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/b/n' will be
 (Font)              scaled to size 8.00003pt on input line 398.
-LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 8.00003pt on input line 400.
-
-Overfull \hbox (1075.85088pt too wide) in paragraph at lines 401--401
-[]\TU/SourceCodePro(0)/m/n/10 En esta sesión veremos una consecuencia important
-e del Teorema de Green: si $F$ es un campo de clase $C^1$, el rotacional $\rot\
-left( F(\overline{x}) \right)$ de $F$ en un punto $\overline{x}$ se puede calcu
-lar como un l\[]imite sobre regiones muy generales. Antes de ello, es convenien
-te recordar que si $A\subset\R^2$ es acotado, entonces 
- []
-
-
-Overfull \hbox (115.84721pt too wide) in paragraph at lines 403--403
-[]    \TU/SourceCodePro(0)/m/n/10 \diam(A) = \sup \left\{ \|\overline{x} - \ove
-rline{y}\| \left\lvert \ \overline{x},\ \overline{y}\in A \right.  \  \right\} 
-.[] 
- []
-
-
-Overfull \hbox (2035.85455pt too wide) in paragraph at lines 406--406
-[]    \TU/SourceCodePro(0)/m/n/10 Sean $U\subset\R^2$ una regi\[]on, $F = \left
-(P, Q\right): U\to \R^2$ de clase $C^1$ en $U$, $\overline{x}\in U$ y $\left\{ 
-\Omega_{\epsilon} \right\}_{0<\epsilon <c}$ una familia de subconjuntos de $U$ 
-que son Jordan--medibles, cerrados y acotados tales que $\Gamma_{\epsilon} = \p
-artial \Omega_{\epsilon} = \fr\left( \Omega_{\epsilon}\right)$ es una curva cer
-rada simple, $\overline{x}\in\inte\left(\Omega_{\epsilon}\right)$ para toda $0 
-< \epsilon < c$ y $\lim\limits_{\epsilon\to 0^{+}} \diam\left(\Omega_{\epsilon}
-\right) = 0$. Entonces[] 
- []
-
-
-Overfull \hbox (421.44838pt too wide) in paragraph at lines 408--408
-[]        \TU/SourceCodePro(0)/m/n/10 \rot\left( F(\overline{x})\right) = \lim\
-limits_{\epsilon\to 0^{+}} \frac{\displaystyle\int\limits_{\Gamma_{\epsilon}} F
-\cdot d\gamma_{\epsilon}}{\area\left( \Omega_{\epsilon}\right)}[] 
- []
-
-
-Overfull \hbox (203.84755pt too wide) in paragraph at lines 410--410
-[]    \TU/SourceCodePro(0)/m/n/10 donde $\gamma_{\epsilon}$ es una parametrizac
-i\[]on de $\Gamma_{\epsilon}$ que la recorre en el sentido contrario al de las 
-manecillas del reloj.[] 
- []
-
-
-Overfull \hbox (411.84834pt too wide) in paragraph at lines 415--415
-[]        \TU/SourceCodePro(0)/m/n/10 \displaystyle \int\limits_{\Gamma_{\epsil
-on}} F\cdot d\gamma_{\epsilon} = \int\limits_{\Omega_{\epsilon}} \left( \frac{\
-partial Q}{\partial x} - \frac{\partial P}{\partial y} \right).[] 
- []
-
-
-Overfull \hbox (583.049pt too wide) in paragraph at lines 417--417
-[]    \TU/SourceCodePro(0)/m/n/10 Luego, para cada $\epsilon$, por el Teorema d
-el Valor Promedio para integrales sobre conjuntos Jordan--medibles (\textcolor{
-blue}{?[]recuerda dicho resultado?}), existe $\overline{\xi}_{\epsilon}\in \Ome
-ga_{\epsilon}$ tal que[] 
- []
-
-
-Overfull \hbox (991.05055pt too wide) in paragraph at lines 419--419
-[]        \TU/SourceCodePro(0)/m/n/10 \int\limits_{\Omega_{\epsilon}} \left( \f
-rac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right) & = \left( 
-\frac{\partial Q}{\partial x}\left(\overline{\xi}_{\epsilon}\right) - \frac{\pa
-rtial P}{\partial y}\left(\overline{\xi}_{\epsilon}\right) \right) \cdot m\left
-( \Omega_{\epsilon}\right) \\[] 
- []
-
-
-Overfull \hbox (495.04866pt too wide) in paragraph at lines 420--420
-[]        \TU/SourceCodePro(0)/m/n/10 & = \left( \frac{\partial Q}{\partial x}\
-left(\overline{\xi}_{\epsilon}\right) - \frac{\partial P}{\partial y}\left(\ove
-rline{\xi}_{\epsilon}\right) \right) \cdot \area\left( \Omega_{\epsilon}\right)
-.[] 
- []
-
-
-Overfull \hbox (807.04985pt too wide) in paragraph at lines 423--423
-[]\TU/SourceCodePro(0)/m/n/10 Ya que $\overline{x}\in\inte\left(\Omega_{\epsilo
-n}\right)$, entonces $\inte\left(\Omega_{\epsilon}\right)\neq\emptyset$, lo cua
-l implica que $\area\left(\Omega_{\epsilon}\right)\neq 0$, de donde, al combina
-r las dos igualdades anteriores, para toda $\epsilon$ se cumple que[] 
- []
-
-
-Overfull \hbox (754.24965pt too wide) in paragraph at lines 425--425
-[]    \TU/SourceCodePro(0)/m/n/10 \frac{\displaystyle\int\limits_{\Gamma_{\epsi
-lon}} F\cdot d\gamma_{\epsilon}}{\area\left(\Omega_{\epsilon}\right)} = \frac{\
-partial Q}{\partial x}\left(\overline{\xi}_{\epsilon}\right) - \frac{\partial P
-}{\partial y}\left( \overline{\xi}_{\epsilon}\right).[] 
- []
-
-
-Overfull \hbox (264.64778pt too wide) in paragraph at lines 428--428
-[]\TU/SourceCodePro(0)/m/n/10 Para concluir, notamos que las funciones $\frac{\
-partial Q}{\partial x}$ y $\frac{\partial P}{\partial y}$ son continuas porque 
-$F$ es de clase $C^1$, adem\[]as,[] 
- []
-
-
-Overfull \hbox (861.45006pt too wide) in paragraph at lines 432--432
-[]\TU/SourceCodePro(0)/m/n/10 porque $\overline{x}\in\inte\left(\Omega_{\epsilo
-n}\right)$ para toda $0<\epsilon < c$ y $\lim\limits_{\epsilon\to 0^{+}} \diam\
-left(\Omega_{\epsilon}\right)=0$, entonces por un teorema de cambio de variable
- en l\[]imites (\textcolor{blue}{?[]conoce alg\[]un teorema as\[]i?}) obtenemos
- que[] 
- []
-
-
-Overfull \hbox (1195.85133pt too wide) in paragraph at lines 434--434
-[]    \TU/SourceCodePro(0)/m/n/10 \displaystyle\lim\limits_{\epsilon\to 0^{+}} 
-\frac{\displaystyle\int\limits_{\Gamma_{\epsilon}} F\cdot d\gamma_{\epsilon}}{\
-area\left(\Omega_{\epsilon}\right)}  & = \lim\limits_{\epsilon\to 0^{+}}\left(\
-frac{\partial Q}{\partial x}\left(\overline{\xi}_{\epsilon}\right) - \frac{\par
-tial P}{\partial y}\left( \overline{\xi}_{\epsilon}\right)\right) \\[] 
- []
-
-
-Overfull \hbox (95.04713pt too wide) in paragraph at lines 435--435
-[]    \TU/SourceCodePro(0)/m/n/10 & = \frac{\partial Q}{\partial x}\left(\overl
-ine{x}\right) - \frac{\partial P}{\partial y}\left(\overline{x}\right) \\[] 
- []
-
-
-Overfull \hbox (248.64772pt too wide) in paragraph at lines 442--442
-[]\TU/SourceCodePro(0)/m/n/10 Aunque no lo parezca, la proposici\[]on anterior 
-se puede interpretar como la \emph{rotaci\[]on promedio} generada por el campo 
-$F$ en el punto $\overline{x}$.[] 
- []
-
-
-Overfull \hbox (61.447pt too wide) in paragraph at lines 444--444
-[]\TU/SourceCodePro(0)/m/n/10 Para concluir esta sesi\[]on presentamos una apli
-caci\[]on directa del Teorema de Green: el c\[]alculo de una integral.[] 
- []
-
-
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
+00.
+("C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00107pt on input line 400.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00075pt on input line 400.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 400.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 400.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 400.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 400.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 400
+.
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (C:\Users\Nety\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 400
+.
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (C:\Users\Nety\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line 
+400.
+(C:\Users\Nety\AppData\Roaming\MiKTeX\tex/latex/calrsfs\omsrsfs.fd)
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
@@ -2072,98 +1919,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [3
 
 ]
-Overfull \hbox (683.84938pt too wide) in paragraph at lines 446--446
-[]    \TU/SourceCodePro(0)/m/n/10 Calcule la integral $\displaystyle\int\limits
-_{\Gamma} F\cdot d\gamma$, donde $F(x,y) = \left(3x^3-y^3, x^3 +2y^3\right)$ y 
-$\Gamma$ es el c\[]irculo unitario con centro en el origen y recorrido en el se
-ntido contrario al de las manecillas del reloj.[] 
- []
-
-
-Overfull \hbox (1053.45079pt too wide) in paragraph at lines 449--449
-[]    \TU/SourceCodePro(0)/m/n/10 Tenemos que $F$ es de clase $C^1$ en $\R^2$ y
- si $\Omega = B_1(0,0)$, entonces $\Omega$ es un conjunto Jordan--medible y $\f
-r\left(\Omega\right) = \partial \Omega = \Gamma$. Como $\R^2$ es una regi\[]on,
- claramente se tiene que $\Omega \cup \Gamma\subset \R^2$. Por lo tanto se cump
-len las hip\[]otesis del Teorema de Green, as\[]i que[] 
- []
-
-
-Overfull \hbox (69.44704pt too wide) in paragraph at lines 451--451
-[]        \TU/SourceCodePro(0)/m/n/10 \displaystyle\int\limits_{\Gamma=\partial
- \Omega} F \cdot d\gamma = \int\limits_{\Omega} \rot\left( F \right),[] 
- []
-
-
-Overfull \hbox (155.84737pt too wide) in paragraph at lines 453--453
-[]    \TU/SourceCodePro(0)/m/n/10 donde $\gamma$ es la parametrizaci\[]on usual
- de $\Gamma$ que la recorre una vez en el sentido contrario al de las manecilla
-s del reloj.[] 
- []
-
-
-Overfull \hbox (32.6469pt too wide) in paragraph at lines 478--478
-[]        \TU/SourceCodePro(0)/m/n/10 \int\limits_{B_1(0,0)} f & = \int\limits_
-{0}^{2\pi}\left(\int\limits_{0}^{1} r^3 dr\right)\ d\theta \\[] 
- []
-
-LaTeX Info: Redefining \. on input line 492.
-LaTeX Info: Redefining \% on input line 492.
-[4]
-Underfull \vbox (badness 10000) detected at line 499
- []
-
-
-Overfull \hbox (469.50502pt too wide) detected at line 499
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 499
- []
-
-
-Overfull \hbox (469.50502pt too wide) detected at line 499
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 499
- []
-
-
-Overfull \hbox (469.50502pt too wide) detected at line 499
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 499
- []
-
-
-Overfull \hbox (469.50502pt too wide) detected at line 499
-[]
- []
-
-Apéndice A.
-
-LaTeX Warning: Reference `prop:prop1' on page 5 undefined on input line 501.
-
-No file bookdown.bbl.
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[5
-
-
-
-]
+LaTeX Info: Redefining \. on input line 497.
+LaTeX Info: Redefining \% on input line 497.
+[4] [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -2171,7 +1933,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -2179,7 +1941,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -2187,7 +1949,7 @@ Overfull \hbox (469.50502pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
 []
  []
 
@@ -2198,6 +1960,91 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [6
 
+]
+Underfull \vbox (badness 10000) detected at line 511
+ []
+
+
+Overfull \hbox (469.50499pt too wide) detected at line 511
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 511
+ []
+
+
+Overfull \hbox (469.50499pt too wide) detected at line 511
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 511
+ []
+
+
+Overfull \hbox (469.50499pt too wide) detected at line 511
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 511
+ []
+
+
+Overfull \hbox (469.50499pt too wide) detected at line 511
+[]
+ []
+
+Apéndice A.
+No file bookdown.bbl.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[7
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (469.50499pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[8
+
 ] (bookdown.ind) (bookdown.aux
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
@@ -2205,20 +2052,17 @@ LaTeX Info: Redefining \% on input line 27.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 23214 strings out of 412014
- 397832 string characters out of 2849237
- 936726 words of memory out of 3000000
- 42545 multiletter control sequences out of 15000+200000
- 404354 words of font info for 70 fonts, out of 3000000 for 9000
+ 22875 strings out of 412014
+ 393933 string characters out of 2849237
+ 925343 words of memory out of 3000000
+ 42166 multiletter control sequences out of 15000+200000
+ 407694 words of font info for 91 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 98i,7n,116p,580b,506s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 98i,11n,116p,734b,413s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bookdown.pdf (18 pages).
+Output written on bookdown.pdf (20 pages).
 
 ! miktex-dvipdfmx: major issue: User/administrator updates are out-of-sync.
 ! xelatex: major issue: User/administrator updates are out-of-sync.
