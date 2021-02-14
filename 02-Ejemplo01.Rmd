@@ -34,13 +34,21 @@ color <- function(x, color) {
       x)
   } else x
 }
+
+video <- function(x){
+  if (knitr::is_html_output()) {
+    knitr::include_url(x)
+  }
+}
 ```
 
 
 # Ejemplo 01
 
+```{r echo = FALSE}
+video("https://youtu.be/zznckkZZGA0")
+```
 
-`r color("Video disponible [AQUI](https://youtu.be/zznckkZZGA0).", "red")`
 
 En esta sesión veremos una consecuencia importante del Teorema de Green: si $F$ es un campo de clase $C^1$, el rotacional $\rot\left( F(\overline{x}) \right)$ de $F$ en un punto $\overline{x}$ se puede calcular como un límite sobre regiones muy generales. Antes de ello, es conveniente recordar que si $A\subset\R^2$ es acotado, entonces
 
