@@ -46,7 +46,7 @@ video <- function(x){
 # Ejemplo 01
 
 ```{r echo = FALSE}
-video("https://youtu.be/zznckkZZGA0")
+video("https://www.youtube.com/embed/zznckkZZGA0")
 ```
 
 
