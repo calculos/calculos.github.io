@@ -13,6 +13,7 @@ site: bookdown::bookdown_site
 description: "Prueba para Cálculo"
 github-repo: calculos/calculos.github.io
 graphics: yes
+favicon: images/calculo1.ico
 #cover-image: images/cover.jpg
 ---
 
