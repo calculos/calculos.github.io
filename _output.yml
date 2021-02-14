@@ -13,7 +13,7 @@ bookdown::gitbook:
       github: false
       facebook: false
     fontsettings:
-      theme: night
+      theme: sepia
 bookdown::pdf_book:
   includes:
     in_header: latex/preamble.tex
