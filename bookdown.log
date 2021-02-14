@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 21.1) (preloaded format=xelatex 2021.2.12)  14 FEB 2021 04:51
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 21.1) (preloaded format=xelatex 2021.2.12)  14 FEB 2021 06:36
 entering extended mode
 **./bookdown.tex
 (bookdown.tex
@@ -1876,33 +1876,31 @@ Overfull \hbox (469.50499pt too wide) detected at line 396
  []
 
 Capítulo 2.
-LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/b/n' will be
-(Font)              scaled to size 8.00003pt on input line 398.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-00.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
+98.
 ("C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 400.
+(Font)              scaled to size 10.00107pt on input line 398.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 400.
+(Font)              scaled to size 7.00075pt on input line 398.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 400.
+(Font)              scaled to size 5.00053pt on input line 398.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 400.
+(Font)              scaled to size 9.99893pt on input line 398.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 400.
+(Font)              scaled to size 6.99925pt on input line 398.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 400.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 400
+(Font)              scaled to size 4.99947pt on input line 398.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 398
 .
 ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\Nety\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 400
+LaTeX Font Info:    Trying to load font information for U+msb on input line 398
 .
 ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1910,7 +1908,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line 
-400.
+398.
 (C:\Users\Nety\AppData\Roaming\MiKTeX\tex/latex/calrsfs\omsrsfs.fd)
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
@@ -1919,8 +1917,8 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [3
 
 ]
-LaTeX Info: Redefining \. on input line 497.
-LaTeX Info: Redefining \% on input line 497.
+LaTeX Info: Redefining \. on input line 495.
+LaTeX Info: Redefining \% on input line 495.
 [4] [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1961,38 +1959,38 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [6
 
 ]
-Underfull \vbox (badness 10000) detected at line 511
+Underfull \vbox (badness 10000) detected at line 509
  []
 
 
-Overfull \hbox (469.50499pt too wide) detected at line 511
+Overfull \hbox (469.50499pt too wide) detected at line 509
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 511
+Underfull \vbox (badness 10000) detected at line 509
  []
 
 
-Overfull \hbox (469.50499pt too wide) detected at line 511
+Overfull \hbox (469.50499pt too wide) detected at line 509
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 511
+Underfull \vbox (badness 10000) detected at line 509
  []
 
 
-Overfull \hbox (469.50499pt too wide) detected at line 511
+Overfull \hbox (469.50499pt too wide) detected at line 509
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 511
+Underfull \vbox (badness 10000) detected at line 509
  []
 
 
-Overfull \hbox (469.50499pt too wide) detected at line 511
+Overfull \hbox (469.50499pt too wide) detected at line 509
 []
  []
 
@@ -2054,13 +2052,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 22875 strings out of 412014
- 393933 string characters out of 2849237
+ 22869 strings out of 412014
+ 393773 string characters out of 2849237
  925343 words of memory out of 3000000
- 42166 multiletter control sequences out of 15000+200000
- 407694 words of font info for 91 fonts, out of 3000000 for 9000
+ 42162 multiletter control sequences out of 15000+200000
+ 407686 words of font info for 90 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 98i,11n,116p,734b,413s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 98i,11n,116p,734b,415s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on bookdown.pdf (20 pages).
 
