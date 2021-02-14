@@ -97,7 +97,7 @@ Esto termina la prueba.
 
 ```
 
-Aunque no lo parezca, la Proposición \ref{prp:prop01} se puede interpretar como la **rotación promedio** generada por el campo $F$ en el punto $\overline{x}$.
+Aunque no lo parezca, la Proposición \@ref(prp:prop01) se puede interpretar como la **rotación promedio** generada por el campo $F$ en el punto $\overline{x}$.
 	
 Para concluir esta sesión presentamos una aplicación directa del Teorema de Green: el cálculo de una integral.
 	
