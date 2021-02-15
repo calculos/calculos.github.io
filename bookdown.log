@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 21.1) (preloaded format=xelatex 2021.2.12)  14 FEB 2021 07:03
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 21.1) (preloaded format=xelatex 2021.2.12)  15 FEB 2021 10:42
 entering extended mode
 **./bookdown.tex
 (bookdown.tex
@@ -1917,8 +1917,8 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [3
 
 ]
-LaTeX Info: Redefining \. on input line 495.
-LaTeX Info: Redefining \% on input line 495.
+LaTeX Info: Redefining \. on input line 492.
+LaTeX Info: Redefining \% on input line 492.
 [4] [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1959,38 +1959,38 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [6
 
 ]
-Underfull \vbox (badness 10000) detected at line 509
+Underfull \vbox (badness 10000) detected at line 511
  []
 
 
-Overfull \hbox (469.50499pt too wide) detected at line 509
+Overfull \hbox (469.50499pt too wide) detected at line 511
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 509
+Underfull \vbox (badness 10000) detected at line 511
  []
 
 
-Overfull \hbox (469.50499pt too wide) detected at line 509
+Overfull \hbox (469.50499pt too wide) detected at line 511
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 509
+Underfull \vbox (badness 10000) detected at line 511
  []
 
 
-Overfull \hbox (469.50499pt too wide) detected at line 509
+Overfull \hbox (469.50499pt too wide) detected at line 511
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 509
+Underfull \vbox (badness 10000) detected at line 511
  []
 
 
-Overfull \hbox (469.50499pt too wide) detected at line 509
+Overfull \hbox (469.50499pt too wide) detected at line 511
 []
  []
 
@@ -2058,7 +2058,7 @@ Here is how much of TeX's memory you used:
  42162 multiletter control sequences out of 15000+200000
  407686 words of font info for 90 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 98i,11n,116p,734b,415s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 98i,11n,116p,734b,417s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on bookdown.pdf (20 pages).
 

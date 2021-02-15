@@ -24,7 +24,7 @@
 <meta name="author" content="ASG" />
 
 
-<meta name="date" content="2021-02-14" />
+<meta name="date" content="2021-02-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -116,13 +116,12 @@
 donde <span class="math inline">\(\gamma_{\epsilon}\)</span> es una parametrización de <span class="math inline">\(\Gamma_{\epsilon}\)</span> que la recorre en el sentido contrario al de las manecillas del reloj.
 </div>
 
-
 <div class="proof">
-<p> <span class="proof"><em>Proof. </em></span> Notamos que para cada <span class="math inline">\(0&lt; \epsilon&lt;c\)</span> se cumplen las hipótesis del Teorema de Green, por lo cual</p>
+<p><span id="unlabeled-div-2" class="proof"><em>Proof</em>. </span>Notamos que para cada <span class="math inline">\(0&lt; \epsilon&lt;c\)</span> se cumplen las hipótesis del Teorema de Green, por lo cual</p>
 <p><span class="math display">\[\begin{equation*}
             \displaystyle \int\limits_{\Gamma_{\epsilon}} F\cdot d\gamma_{\epsilon} = \int\limits_{\Omega_{\epsilon}} \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right).
 \end{equation*}\]</span></p>
-<p>Luego, para cada <span class="math inline">\(\epsilon\)</span>, por el Teorema del Valor Promedio para integrales sobre conjuntos Jordan–medibles (), existe <span class="math inline">\(\overline{\xi}_{\epsilon}\in \Omega_{\epsilon}\)</span> tal que</p>
+<p>Luego, para cada <span class="math inline">\(\epsilon\)</span>, por el Teorema del Valor Promedio para integrales sobre conjuntos Jordan–medibles (<span style="color: blue;">¿recuerda dicho resultado?</span>), existe <span class="math inline">\(\overline{\xi}_{\epsilon}\in \Omega_{\epsilon}\)</span> tal que</p>
 <p><span class="math display">\[\begin{align*}
             \int\limits_{\Omega_{\epsilon}} \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right) &amp; = \left( \frac{\partial Q}{\partial x}\left(\overline{\xi}_{\epsilon}\right) - \frac{\partial P}{\partial y}\left(\overline{\xi}_{\epsilon}\right) \right) \cdot m\left( \Omega_{\epsilon}\right) \\
             &amp; = \left( \frac{\partial Q}{\partial x}\left(\overline{\xi}_{\epsilon}\right) - \frac{\partial P}{\partial y}\left(\overline{\xi}_{\epsilon}\right) \right) \cdot \mathop{\mathrm{\acute{a}rea}}\left( \Omega_{\epsilon}\right).
@@ -135,7 +134,7 @@ donde <span class="math inline">\(\gamma_{\epsilon}\)</span> es una parametrizac
 <p><span class="math display">\[\begin{equation*}
         \lim\limits_{\epsilon\to 0^{+}} \overline{\xi}_{\epsilon} = \overline{x}
 \end{equation*}\]</span></p>
-<p>porque <span class="math inline">\(\overline{x}\in\mathop{\mathrm{int}}\left(\Omega_{\epsilon}\right)\)</span> para toda <span class="math inline">\(0&lt;\epsilon &lt; c\)</span> y <span class="math inline">\(\lim\limits_{\epsilon\to 0^{+}} \mathop{\mathrm{di\acute{a}m}}\left(\Omega_{\epsilon}\right)=0\)</span>, entonces por un teorema de cambio de variable en límites () obtenemos que</p>
+<p>porque <span class="math inline">\(\overline{x}\in\mathop{\mathrm{int}}\left(\Omega_{\epsilon}\right)\)</span> para toda <span class="math inline">\(0&lt;\epsilon &lt; c\)</span> y <span class="math inline">\(\lim\limits_{\epsilon\to 0^{+}} \mathop{\mathrm{di\acute{a}m}}\left(\Omega_{\epsilon}\right)=0\)</span>, entonces por un teorema de cambio de variable en límites (<span style="color: blue;">¿conoce algún teorema así?</span>) obtenemos que</p>
 <p><span class="math display">\[\begin{align*}
         \displaystyle\lim\limits_{\epsilon\to 0^{+}} \frac{\displaystyle\int\limits_{\Gamma_{\epsilon}} F\cdot d\gamma_{\epsilon}}{\mathop{\mathrm{\acute{a}rea}}\left(\Omega_{\epsilon}\right)}  &amp; = \lim\limits_{\epsilon\to 0^{+}}\left(\frac{\partial Q}{\partial x}\left(\overline{\xi}_{\epsilon}\right) - \frac{\partial P}{\partial y}\left( \overline{\xi}_{\epsilon}\right)\right) \\
         &amp; = \frac{\partial Q}{\partial x}\left(\overline{x}\right) - \frac{\partial P}{\partial y}\left(\overline{x}\right) \\
@@ -143,7 +142,6 @@ donde <span class="math inline">\(\gamma_{\epsilon}\)</span> es una parametrizac
 \end{align*}\]</span></p>
 <p>Esto termina la prueba.</p>
 </div>
-
 <p>Aunque no lo parezca, la Proposición <a href="ejemplo-01.html#prp:prop01">3.1</a> se puede interpretar como la <strong>rotación promedio</strong> generada por el campo <span class="math inline">\(F\)</span> en el punto <span class="math inline">\(\overline{x}\)</span>.</p>
 <p>Para concluir esta sesión presentamos una aplicación directa del Teorema de Green: el cálculo de una integral.</p>
 
