@@ -1,28 +1,29 @@
 ---
+output:
+  pdf_document: default
+  bookdown::pdf_document2: default
 header-includes:
-  - \usepackage{xcolor}
-  - \usepackage[spanish]{babel}
-  - \decimalpoint #para poner el punto decimal (en lugar de la coma decimal)
-  - \usepackage{amsmath}
-  - \allowdisplaybreaks #para permitir rompimiento de ecuaciones en p\'aginas distintas
-  #% ver http://tex.stackexchange.com/questions/51682/is-it-possible-to-pagebreak-aligned-equations
-  #  para m\'as detalles
-  - \usepackage{amsthm}
-  - \usepackage{dsfont}
-  - \usepackage{amsfonts}
-  - \usepackage{amssymb}
-  - \newcommand{\R}{\mathbb{R}}
-  - \DeclareMathOperator*{\id}{Id}
-  - \DeclareMathOperator{\expo}{exp}
-  - \DeclareMathOperator{\inte}{int}
-  - \DeclareMathOperator{\ext}{ext}
-  - \DeclareMathOperator{\fr}{Fr}
-  - \DeclareMathOperator{\sen}{sen}
-  - \DeclareMathOperator{\senh}{senh}
-  - \DeclareMathOperator{\rot}{Rot}
-  - \DeclareMathOperator{\diam}{di\acute{a}m}
-  - \DeclareMathOperator{\area}{\acute{a}rea}
-  - \DeclareMathOperator{\dive}{div}
+- \usepackage{xcolor}
+- \usepackage[spanish]{babel}
+- \decimalpoint
+- \usepackage{amsmath}
+- \allowdisplaybreaks
+- \usepackage{amsthm}
+- \usepackage{dsfont}
+- \usepackage{amsfonts}
+- \usepackage{amssymb}
+- \newcommand{\R}{\mathbb{R}}
+- \DeclareMathOperator*{\id}{Id}
+- \DeclareMathOperator{\expo}{exp}
+- \DeclareMathOperator{\inte}{int}
+- \DeclareMathOperator{\ext}{ext}
+- \DeclareMathOperator{\fr}{Fr}
+- \DeclareMathOperator{\sen}{sen}
+- \DeclareMathOperator{\senh}{senh}
+- \DeclareMathOperator{\rot}{Rot}
+- \DeclareMathOperator{\diam}{di\acute{a}m}
+- \DeclareMathOperator{\area}{\acute{a}rea}
+- \DeclareMathOperator{\dive}{div}
 ---
 
 ```{r echo = FALSE}
@@ -68,14 +69,15 @@ Sean $U\subset\R^2$ una región, $F = \left(P, Q\right): U\to \mathbb{R}^2$ de c
 donde $\gamma_{\epsilon}$ es una parametrización de $\Gamma_{\epsilon}$ que la recorre en el sentido contrario al de las manecillas del reloj.
 ```
 
-```{proof}
+:::{.proof}
 Notamos que para cada $0< \epsilon<c$ se cumplen las hipótesis del Teorema de Green, por lo cual
 		
 \begin{equation*}
 			\displaystyle \int\limits_{\Gamma_{\epsilon}} F\cdot d\gamma_{\epsilon} = \int\limits_{\Omega_{\epsilon}} \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right).
 \end{equation*}
-		
-Luego, para cada $\epsilon$, por el Teorema del Valor Promedio para integrales sobre conjuntos Jordan--medibles (\textcolor{blue}{¿recuerda dicho resultado?}), existe $\overline{\xi}_{\epsilon}\in \Omega_{\epsilon}$ tal que
+
+
+Luego, para cada $\epsilon$, por el Teorema del Valor Promedio para integrales sobre conjuntos Jordan--medibles (`r color("¿recuerda dicho resultado?","blue")`), existe $\overline{\xi}_{\epsilon}\in \Omega_{\epsilon}$ tal que
 		
 \begin{align*}
 			\int\limits_{\Omega_{\epsilon}} \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right) & = \left( \frac{\partial Q}{\partial x}\left(\overline{\xi}_{\epsilon}\right) - \frac{\partial P}{\partial y}\left(\overline{\xi}_{\epsilon}\right) \right) \cdot m\left( \Omega_{\epsilon}\right) \\
@@ -94,7 +96,7 @@ Para concluir, notamos que las funciones $\frac{\partial Q}{\partial x}$ y $\fra
 		\lim\limits_{\epsilon\to 0^{+}} \overline{\xi}_{\epsilon} = \overline{x}
 \end{equation*}
 
-porque $\overline{x}\in\inte\left(\Omega_{\epsilon}\right)$ para toda $0<\epsilon < c$ y $\lim\limits_{\epsilon\to 0^{+}} \diam\left(\Omega_{\epsilon}\right)=0$, entonces por un teorema de cambio de variable en límites (\textcolor{blue}{¿conoce algún teorema así?}) obtenemos que
+porque $\overline{x}\in\inte\left(\Omega_{\epsilon}\right)$ para toda $0<\epsilon < c$ y $\lim\limits_{\epsilon\to 0^{+}} \diam\left(\Omega_{\epsilon}\right)=0$, entonces por un teorema de cambio de variable en límites (`r color("¿conoce algún teorema así?", "blue")`) obtenemos que
 
 \begin{align*}
 		\displaystyle\lim\limits_{\epsilon\to 0^{+}} \frac{\displaystyle\int\limits_{\Gamma_{\epsilon}} F\cdot d\gamma_{\epsilon}}{\area\left(\Omega_{\epsilon}\right)}  & = \lim\limits_{\epsilon\to 0^{+}}\left(\frac{\partial Q}{\partial x}\left(\overline{\xi}_{\epsilon}\right) - \frac{\partial P}{\partial y}\left( \overline{\xi}_{\epsilon}\right)\right) \\
@@ -103,8 +105,7 @@ porque $\overline{x}\in\inte\left(\Omega_{\epsilon}\right)$ para toda $0<\epsilo
 \end{align*}
 
 Esto termina la prueba.
-
-```
+:::
 
 Aunque no lo parezca, la Proposición \@ref(prp:prop01) se puede interpretar como la **rotación promedio** generada por el campo $F$ en el punto $\overline{x}$.
 	
