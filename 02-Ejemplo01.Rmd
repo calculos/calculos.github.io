@@ -1,8 +1,8 @@
 ---
 output:
-  pdf_document:
-    number_sections: true
-    keep_tex: true
+  bookdown::gitbook:
+    includes:
+      after_body: disqus.html
 header-includes:
 - \usepackage{xcolor}
 - \usepackage[spanish]{babel}
