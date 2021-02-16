@@ -54,9 +54,10 @@ archivo <- function(x){
 
 # Ejemplo 01
 
-```{r echo= FALSE, out.width="100%", eval = knitr::is_html_output()}
-knitr::include_graphics('archivos/02-Ejemplo01.pdf')
-```
+<!-- d -->
+<!-- ```{r echo= FALSE, out.width="100%", eval = knitr::is_html_output()} -->
+<!-- knitr::include_graphics('archivos/02-Ejemplo01.pdf') -->
+<!-- ``` -->
 
 
 <!-- ```{r echo = FALSE, eval = knitr::is_html_output()} -->
@@ -69,6 +70,16 @@ knitr::include_graphics('archivos/02-Ejemplo01.pdf')
 <!--               link = "archivos/02-Ejemplo01.pdf") -->
 <!-- ``` -->
 <!-- d -->
+
+```{r, echo=FALSE}
+myHyperlink <- "archivos/02-Ejemplo01.pdf"
+hyperlink_exists = !is.null(myHyperlink)
+```
+
+```{r, eval=hyperlink_exists, results="asis", echo=FALSE, eval = knitr::is_html_output()}
+cat(paste0("The file is saved ","[", "Here", "](", myHyperlink, ")","\n"))
+```
+
 
 <!-- [PDF](archivos/02-Ejemplo01.pdf) -->
 
