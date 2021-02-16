@@ -14,6 +14,8 @@ bookdown::gitbook:
       facebook: false
     fontsettings:
       theme: sepia
+  includes:
+    after_body: disqus.html
 bookdown::pdf_book:
   includes:
     in_header: latex/preamble.tex
