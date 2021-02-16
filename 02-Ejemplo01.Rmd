@@ -1,8 +1,4 @@
 ---
-output:
-  bookdown::gitbook:
-    includes:
-      after_body: disqus.html
 header-includes:
 - \usepackage{xcolor}
 - \usepackage[spanish]{babel}
