@@ -1,7 +1,8 @@
 ---
 output:
-  pdf_document: default
-  bookdown::pdf_document2: default
+  pdf_document:
+    number_sections: true
+    keep_tex: true
 header-includes:
 - \usepackage{xcolor}
 - \usepackage[spanish]{babel}
@@ -41,14 +42,43 @@ video <- function(x){
     knitr::include_url(x)
   }
 }
+
+archivo <- function(x){
+  if (knitr::is_html_output()) {
+    y <- "[PDF](x)"
+    y
+  }
+}
 ```
 
 
 # Ejemplo 01
 
+```{r echo= FALSE, out.width="100%", eval = knitr::is_html_output()}
+knitr::include_graphics('archivos/02-Ejemplo01.pdf')
+```
+
+
+<!-- ```{r echo = FALSE, eval = knitr::is_html_output()} -->
+<!-- library(kableExtra) -->
+<!-- tbl_pdf <- data.frame( PDF = "") -->
+<!-- tbl_pdf %>% -->
+<!--   kbl(booktabs = T) %>% -->
+<!--   kable_styling(full_width = F, position = "center") %>% -->
+<!--   column_spec(1, image = spec_image("images/descargarpdf.png", 200, 100), -->
+<!--               link = "archivos/02-Ejemplo01.pdf") -->
+<!-- ``` -->
+<!-- d -->
+
+<!-- [PDF](archivos/02-Ejemplo01.pdf) -->
+
+
+
+
 ```{r echo = FALSE}
 video("https://www.youtube.com/embed/zznckkZZGA0")
 ```
+
 
 
 En esta sesión veremos una consecuencia importante del Teorema de Green: si $F$ es un campo de clase $C^1$, el rotacional $\rot\left( F(\overline{x}) \right)$ de $F$ en un punto $\overline{x}$ se puede calcular como un límite sobre regiones muy generales. Antes de ello, es conveniente recordar que si $A\subset\R^2$ es acotado, entonces
