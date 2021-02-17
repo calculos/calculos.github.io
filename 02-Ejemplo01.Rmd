@@ -51,7 +51,7 @@ archivo <- function(x){
 # Ejemplo 01
 
 <!-- d -->
-```{r echo= FALSE, out.width="100%", eval = knitr::is_html_output()}
+```{r echo= FALSE, out.width="100%", eval = knitr::is_html_output(), out.height=500}
 knitr::include_graphics('archivos/02-Ejemplo01.pdf')
 ```
 
