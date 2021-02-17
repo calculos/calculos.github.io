@@ -19,7 +19,7 @@ video("https://www.youtube.com/embed/zznckkZZGA0")
 
 
 ```{r echo= FALSE, out.width="100%", eval = knitr::is_html_output(), out.height=1000}
-knitr::include_graphics('archivos/02-Ejemplo01.pdf')
+knitr::include_graphics('archivos/02.pdf')
 ```
 
 
