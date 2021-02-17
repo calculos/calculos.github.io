@@ -5,5 +5,5 @@ quién-escribe
 introducción
 ejemplo-01
 ayudantía-26
-ayudantía-26-1
+ayudantía-27
 por-aprender

@@ -1,5 +1,5 @@
 
-## Ayudantía 26
+## Ayudantía 27
 
 ```{r echo = FALSE}
 video <- function(x){
@@ -12,7 +12,7 @@ video <- function(x){
 
 
 
-```{r echo = FALSE}
+```{r echo = FALSE, fig.align='center'}
 video("https://www.youtube.com/embed/zznckkZZGA0")
 ```
 
