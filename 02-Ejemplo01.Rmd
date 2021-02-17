@@ -51,9 +51,9 @@ archivo <- function(x){
 # Ejemplo 01
 
 <!-- d -->
-<!-- ```{r echo= FALSE, out.width="100%", eval = knitr::is_html_output()} -->
-<!-- knitr::include_graphics('archivos/02-Ejemplo01.pdf') -->
-<!-- ``` -->
+```{r echo= FALSE, out.width="100%", eval = knitr::is_html_output()}
+knitr::include_graphics('archivos/02-Ejemplo01.pdf')
+```
 
 
 <!-- ```{r echo = FALSE, eval = knitr::is_html_output()} -->
@@ -77,6 +77,12 @@ cat(paste0("The file is saved ","[", "Here", "](", myHyperlink, ")","\n"))
 ```
 
 
+```{r logopdf, echo=FALSE, fig.cap="Imaagen de prueba", fig.align = "center", out.width = '30%'}
+knitr::include_graphics("images/descargarpdf.png")
+```
+
+Vea la Figura \@ref(fig:logopdf).
+
 <!-- [PDF](archivos/02-Ejemplo01.pdf) -->
 
 
@@ -89,7 +95,9 @@ video("https://www.youtube.com/embed/zznckkZZGA0")
 
 
 En esta sesión veremos una consecuencia importante del Teorema de Green: si $F$ es un campo de clase $C^1$, el rotacional $\rot\left( F(\overline{x}) \right)$ de $F$ en un punto $\overline{x}$ se puede calcular como un límite sobre regiones muy generales. Antes de ello, es conveniente recordar que si $A\subset\R^2$ es acotado, entonces
-
+  \[
+    hola\ mundo
+  \]
 \begin{equation*}
 		\diam(A) = \sup \left\{ \|\overline{x} - \overline{y}\| \left\lvert \ \overline{x},\ \overline{y}\in A \right.  \  \right\} .
 \end{equation*}
@@ -143,6 +151,8 @@ porque $\overline{x}\in\inte\left(\Omega_{\epsilon}\right)$ para toda $0<\epsilo
 
 Esto termina la prueba.
 :::
+
+
 
 Aunque no lo parezca, la Proposición \@ref(prp:prop01) se puede interpretar como la **rotación promedio** generada por el campo $F$ en el punto $\overline{x}$.
 	

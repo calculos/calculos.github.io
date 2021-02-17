@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 21.1) (preloaded format=xelatex 2021.2.12)  15 FEB 2021 22:17
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 21.1) (preloaded format=xelatex 2021.2.12)  17 FEB 2021 13:35
 entering extended mode
 **./calculo.tex
 (calculo.tex
@@ -1536,7 +1536,38 @@ Underfull \hbox (badness 10000) detected at line 366
 (calculo.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+.
+("C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00107pt on input line 5.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00075pt on input line 5.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 5.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 5.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 5.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (C:\Users\Nety\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (C:\Users\Nety\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line 
+5.
+(C:\Users\Nety\AppData\Roaming\MiKTeX\tex/latex/calrsfs\omsrsfs.fd))
 \tf@lof=\write7
 \openout7 = `calculo.lof'.
 
@@ -1876,40 +1907,9 @@ Overfull \hbox (469.50499pt too wide) detected at line 396
  []
 
 Capítulo 2.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
-98.
-("C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd"
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 398.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 398.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 398.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 398.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 398.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 398.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 398
-.
-("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (C:\Users\Nety\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 398
-.
-("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (C:\Users\Nety\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line 
-398.
-(C:\Users\Nety\AppData\Roaming\MiKTeX\tex/latex/calrsfs\omsrsfs.fd)
+File: images/descargarpdf.png Graphic file (type bmp)
+<images/descargarpdf.png>
+
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
@@ -1917,8 +1917,8 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [3
 
 ]
-LaTeX Info: Redefining \. on input line 492.
-LaTeX Info: Redefining \% on input line 492.
+LaTeX Info: Redefining \. on input line 497.
+LaTeX Info: Redefining \% on input line 497.
 [4] [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1959,38 +1959,38 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [6
 
 ]
-Underfull \vbox (badness 10000) detected at line 511
+Underfull \vbox (badness 10000) detected at line 524
  []
 
 
-Overfull \hbox (469.50499pt too wide) detected at line 511
+Overfull \hbox (469.50499pt too wide) detected at line 524
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 511
+Underfull \vbox (badness 10000) detected at line 524
  []
 
 
-Overfull \hbox (469.50499pt too wide) detected at line 511
+Overfull \hbox (469.50499pt too wide) detected at line 524
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 511
+Underfull \vbox (badness 10000) detected at line 524
  []
 
 
-Overfull \hbox (469.50499pt too wide) detected at line 511
+Overfull \hbox (469.50499pt too wide) detected at line 524
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 511
+Underfull \vbox (badness 10000) detected at line 524
  []
 
 
-Overfull \hbox (469.50499pt too wide) detected at line 511
+Overfull \hbox (469.50499pt too wide) detected at line 524
 []
  []
 
@@ -2052,13 +2052,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 22869 strings out of 412014
- 393744 string characters out of 2849237
- 925334 words of memory out of 3000000
- 42162 multiletter control sequences out of 15000+200000
+ 22893 strings out of 412014
+ 394143 string characters out of 2849237
+ 926384 words of memory out of 3000000
+ 42179 multiletter control sequences out of 15000+200000
  407686 words of font info for 90 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 98i,11n,116p,733b,417s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 98i,11n,116p,733b,461s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on calculo.pdf (20 pages).
 
