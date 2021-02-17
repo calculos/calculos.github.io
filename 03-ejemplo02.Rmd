@@ -1,5 +1,5 @@
 
-# Ayudantía 26
+## Ayudantía 26
 
 ```{r echo = FALSE}
 video <- function(x){
