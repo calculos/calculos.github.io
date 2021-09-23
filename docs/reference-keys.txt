@@ -1,9 +1,0 @@
-fig:logopdf
-prp:prop01
-exr:ej01
-quién-escribe
-introducción
-ejemplo-01
-ayudantía-26
-ayudantía-27
-por-aprender

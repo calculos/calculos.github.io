@@ -1,0 +1,12 @@
+name: "Cálculo diferencial e integral"
+output_dir: docs
+navbar:
+  title: "Cálculo diferencial e integral"
+output:
+    html_document:
+      theme: darkly
+      type: inverse
+      #css: css/style.css
+      #includes:
+       # in_header: header.html
+        #after_body: disqus.html

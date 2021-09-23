@@ -1,42 +1,9 @@
---- 
-title: "Cálculo"
-author: "ASG"
-date: "`r Sys.Date()`"
-documentclass: krantz
-bibliography: [book.bib, packages.bib]
-biblio-style: apalike
-link-citations: yes
-colorlinks: yes
-lot: yes
-lof: yes
-site: bookdown::bookdown_site
-description: "Prueba para Cálculo"
-github-repo: calculos/calculos.github.io
-graphics: yes
-favicon: images/calculo1.ico
-#cover-image: images/cover.jpg
+---
+title: "Cálculo diferencial e integral"
+# favicon: images/cdi1.ico
+description: "Página principal."
 ---
 
-```{r setup, include=FALSE}
-options(
-  htmltools.dir.version = FALSE, formatR.indent = 2, width = 55, digits = 4
-)
+Curso actual
 
-# install the packages needed by this book; you fill out c(), e.g. c('ggplot2', 'dplyr')
-lapply(c('xfun'), function(pkg) {
-  if (system.file(package = pkg) == '') install.packages(pkg)
-})
-```
-
-# Prefacio {-}
-
-Algo.
-
-## Agradecimientos {-}
-
-A las personas que hicieron sencillo el publicar libros.
-
-```{block2, type='flushright', html.tag='p'}
-ASG
-```
-
+[Cálculo diferencial e integral 2](https://calculos.github.io/2022-1/)

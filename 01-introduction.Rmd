@@ -1,5 +1,0 @@
-\mainmatter
-
-# Introducción
-
-Si esto funciona, el sitio se actualizará automáticamente. Y la escritura se simplificará. Además, cada capítulo tendrá el enlace a su propio video sin problemas.
