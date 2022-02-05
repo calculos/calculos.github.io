@@ -8,11 +8,13 @@ description: "Página principal."
 
 ## Curso actual
 
-[Cálculo diferencial e integral 2, Semestre 2022-1](https://calculos.github.io/2022-1/)
+[Cálculo diferencial e integral 3, Semestre 2022-2](https://calculos.github.io/2022-2/)
 
 
 <br/>
 
-## Curso anterior
+## Cursos anteriores
+
+[Cálculo diferencial e integral 2, Semestre 2022-1](https://calculos.github.io/2022-1/)
 
 [Cálculo diferencial e integral 1, Semestre 2021-2](https://calculo1.github.io/2021-2/)
